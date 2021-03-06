@@ -1,38 +1,25 @@
-# Examen Técnico Spark
+# Exercices Spark
 
-## Instrucciones
-    Realizar un fork de este repositorio a tu cuenta de github
-    Crear una rama que por nombre lleve tus iniciales
-    Realizar los ejercicios solicitados abajo
-    Realizar un Pull Request a la rama solution desde la rama en que haz realizado los ejercicios
+## Example 1
 
-_Para nivel Jr realizar ejercicio 1_
-
-_Para nivel Semi-Sr realizar ejercicios 1 y 2_
-
-_Para nivel Sr realizar ejercicio 1, 2 y 3_
-
-## Ejercicio 1
-Dados los archivos contenidos en la carpeta comics
-1. Al Dataframe que contiene los nombres de comics queremos agregar una columna que contenga los personajes a forma de array
+Given the files contained in the comics folder
+1. To the Dataframe that contains the names of comics we want to add a column that contains the characters as an array
     
-## Ejercicio 2
-Dado el archivo players_20.csvn nuestro coach Ramón necesita saber 
-1. Cuales son los 20 jugadores de menos de 23 años que tienen más potencial
-2. Cuales son los equipos top 20 con el promedio (overall) más alto
-3. De los 20 equipos anteriores nuestro coach también quiere saber cuáles son los 3 porteros y los 3 delanteros con mejor (overall)
-4. Rankear a los jugadores por nacionalidad de tal forma que identifiquemos a los 5 mejores de cada país. 
+## Example 2
+Given the file players_20.csvn our coach needs to know
+1. What are the 20 players under 23 who have the most potential?
+2. Which are the top 20 teams with the highest overall average?
+3. Of the 20 previous teams our coach also wants to know which are the 3 goalkeepers and the 3 forwards with the best (overall)
+4. Rank the players by nationality in such a way that we identify the top 5 from each country.
 
-## Ejercicio 3
-
-Dado el archivo PokemonData.csv, leerlo como DataFrame (se recomienda el uso de RDDs para la lectura inicial)
-1. Filtrando por los tipos de pokemon(type1) fire y water es necesario calcular el promedio de cada una de las siguientes columnas: 
-    sp_attack, sp_defense y speed; de tal forma que el dataframe resultante muestre los siguientes datos:
+## Example 3
+Given the PokemonData.csv file, read it as DataFrame (RDDs are recommended for initial reading)
+1. Filtering by the types of pokemon (type1) fire and water it is necessary to calculate the average of each of the following columns:
+    sp_attack, sp_defense and speed; in such a way that the resulting dataframe shows the following data:
     generation, avg_sp_attack_water, avg_sp_attack_fire, avg_sp_defense_water, avg_sp_defense_fire, avg_speed_water, avg_speed_fire
 
+### Results
 
-### Resultados
-
-Cada uno de los Dataframes resultantes debe ser escrito en formato parquet en una carpeta dentro de src/main/output/parquet/
+Each of the resulting Dataframes must be written in parquet format in a folder inside src / main / output / parquet /
 # spark-scala
 # spark-scala
